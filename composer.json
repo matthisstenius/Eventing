@@ -21,6 +21,5 @@
             "Matthis\\Eventing\\": "src",
             "spec\\Matthis\\Eventing\\": "spec"
         }
-    },
-    "minimum-stability": "dev"
+    }
 }
