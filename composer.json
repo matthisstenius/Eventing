@@ -1,6 +1,5 @@
 {
     "name": "matthis/eventing",
-    "version": "1.0",
     "require": {
         "php": ">=5.4.0",
         "illuminate/log": "~5.1",
