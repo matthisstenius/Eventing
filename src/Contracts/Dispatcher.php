@@ -1,4 +1,4 @@
-<?php namespace Matthis\Eventing\Contratcs;
+<?php namespace Matthis\Eventing\Contracts;
 
 interface Dispatcher
 {

@@ -27,4 +27,4 @@ trait EventRecorder {
 
         return $events;
     }
-} 
+}

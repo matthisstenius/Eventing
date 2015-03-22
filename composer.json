@@ -1,7 +1,9 @@
 {
     "name": "Matthis/eventing",
     "require": {
-        "php": ">=5.4.0"
+        "php": ">=5.4.0",
+        "illuminate/log": "~5.1",
+        "illuminate/events": "~5.1"
     },
     "require-dev": {
         "phpspec/phpspec": "~2.1"
@@ -15,7 +17,8 @@
     ],
     "autoload": {
         "psr-4": {
-            "Matthis\\Eventing": "src"
+            "Matthis\\Eventing\\": "src",
+            "spec\\Matthis\\Eventing\\": "spec"
         }
     },
     "minimum-stability": "dev"

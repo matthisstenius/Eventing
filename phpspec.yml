@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Matthis\Eventing
+        psr4_prefix: Matthis\Eventing
+        src_path: src

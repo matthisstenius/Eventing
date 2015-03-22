@@ -1,5 +1,6 @@
 <?php namespace Matthis\Eventing;
 
+use Illuminate\Contracts\Logging\Log;
 use Illuminate\Events\Dispatcher;
 use Matthis\Eventing\Contracts\Dispatcher as DispatcherInterface;
 
@@ -17,7 +18,7 @@ class LaravelDispatcher implements DispatcherInterface
 
     public function __construct(Dispatcher $dispatcher, Log $log)
     {
-        $this->event = $dispatcher;
+        $this->dispatcher = $dispatcher;
         $this->log = $log;
     }
 
