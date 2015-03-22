@@ -1,4 +1,4 @@
-<?php namespace Workly\Domain;
+<?php namespace Matthis\Eventing;
 
 trait EventRecorder {
     /**

@@ -1,7 +1,7 @@
 {
     "name": "Matthis/eventing",
     "require": {
-        
+        "php": ">=5.4.0"
     },
     "require-dev": {
         "phpspec/phpspec": "~2.1"
@@ -12,5 +12,11 @@
             "name": "Matthis Stenius",
             "email": "matthis@me.com"
         }
-    ]
+    ],
+    "autoload": {
+        "psr-4": {
+            "Matthis\\Eventing": "src"
+        }
+    },
+    "minimum-stability": "dev"
 }

@@ -1,7 +1,7 @@
-<?php namespace Workly\Domain;
+<?php namespace Matthis\Eventing;
 
 use Illuminate\Events\Dispatcher;
-use Workly\Domain\Contracts\Dispatcher as DispatcherInterface;
+use Matthis\Eventing\Contracts\Dispatcher as DispatcherInterface;
 
 class LaravelDispatcher implements DispatcherInterface
 {

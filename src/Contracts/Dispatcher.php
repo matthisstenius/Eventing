@@ -1,4 +1,4 @@
-<?php namespace Workly\Domain\Contracts;
+<?php namespace Matthis\Eventing\Contratcs;
 
 interface Dispatcher
 {
