@@ -11,8 +11,7 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Matthis Stenius",
-            "email": "matthis@me.com"
+            "name": "Matthis Stenius"
         }
     ],
     "autoload": {
