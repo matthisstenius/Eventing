@@ -18,7 +18,7 @@ class LaravelDispatcherSpec extends ObjectBehavior
         $this->beConstructedWith($dispatcher, $log);
     }
 
-    function it_should_convert_commands_name_to_event_name(UserHasRegistered $event)
+    function it_should_dispatch_all_events(UserHasRegistered $event)
     {
         $events = [$event];
 
