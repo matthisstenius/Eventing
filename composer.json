@@ -1,7 +1,7 @@
 {
     "name": "Matthis/eventing",
     "require": {
-        "phpspec/phpspec": "~2.1"
+        
     },
     "require-dev": {
         "phpspec/phpspec": "~2.1"
