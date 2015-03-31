@@ -1,6 +1,6 @@
 # Eventing
 
-https://travis-ci.org/matthisstenius/Eventing.svg?branch=master
+[![Build Status](https://travis-ci.org/matthisstenius/Eventing.svg?branch=v1.0.3)](https://travis-ci.org/matthisstenius/Eventing)
 
 An EventRecorder and dispatcher for domain events
 
