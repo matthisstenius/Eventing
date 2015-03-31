@@ -1,4 +1,4 @@
-<?php namespace matthis\Eventing;
+<?php namespace Matthis\Eventing;
 
 use Exception;
 use ReflectionClass;
