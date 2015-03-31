@@ -1,4 +1,7 @@
 # Eventing
+
+https://travis-ci.org/matthisstenius/Eventing.svg?branch=master
+
 An EventRecorder and dispatcher for domain events
 
 Default dispatcher and logging implementation is for Laravel 5.
