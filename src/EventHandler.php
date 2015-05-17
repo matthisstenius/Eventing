@@ -1,17 +1,18 @@
 <?php namespace Matthis\Eventing;
 
 use Exception;
+use Matthis\Eventing\Contracts\DomainEvent;
 use ReflectionClass;
 
 abstract class EventHandler {
-    
+
     /**
      * Translates call to handler with event naming convention
      *
-     * @param object $event
+     * @param DomainEvent $event
      * @throws Exception
      */
-    public function handle($event)
+    public function handle(DomainEvent $event)
     {
         $methodName = $this->getHandlerMethodName($event);
 

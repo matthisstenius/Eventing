@@ -1,5 +1,7 @@
 <?php namespace Matthis\Eventing;
 
+use Matthis\Eventing\Contracts\DomainEvent;
+
 trait EventRecorder {
     /**
      * @var array
@@ -9,9 +11,9 @@ trait EventRecorder {
     /**
      * Adds event to events array
      *
-     * @param $event
+     * @param DomainEvent $event
      */
-    public function raise($event)
+    public function raise(DomainEvent $event)
     {
         $this->events[] = $event;
     }

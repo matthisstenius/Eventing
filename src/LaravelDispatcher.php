@@ -3,6 +3,7 @@
 use Illuminate\Contracts\Logging\Log;
 use Illuminate\Events\Dispatcher;
 use Matthis\Eventing\Contracts\Dispatcher as DispatcherInterface;
+use Matthis\Eventing\Contracts\DomainEvent;
 
 class LaravelDispatcher implements DispatcherInterface
 {
@@ -41,10 +42,10 @@ class LaravelDispatcher implements DispatcherInterface
     /**
      * Translates event command name to event name
      *
-     * @param $event
-     * @return mixed
+     * @param DomainEvent $event
+     * @return string
      */
-    private function eventCommandTranslator($event)
+    private function eventCommandTranslator(DomainEvent $event)
     {
         return str_replace('\\', '.', get_class($event));
     }
