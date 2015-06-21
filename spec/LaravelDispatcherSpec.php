@@ -2,7 +2,7 @@
 
 namespace spec\Matthis\Eventing;
 
-use Illuminate\Contracts\Logging\Log;
+use Illuminate\Log\Writer as Log;
 use Illuminate\Events\Dispatcher;
 use PhpSpec\ObjectBehavior;
 use Prophecy\Argument;
