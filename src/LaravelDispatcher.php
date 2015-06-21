@@ -1,6 +1,6 @@
 <?php namespace Matthis\Eventing;
 
-use Illuminate\Contracts\Logging\Log;
+use Illuminate\Log\Writer as Log;
 use Illuminate\Events\Dispatcher;
 use Matthis\Eventing\Contracts\Dispatcher as DispatcherInterface;
 use Matthis\Eventing\Contracts\DomainEvent;
