@@ -35,7 +35,7 @@ class LaravelDispatcher implements DispatcherInterface
 
             $this->dispatcher->fire($eventName, $event);
 
-            $this->log->info("Event $eventName was fired");
+            //$this->log->info("Event $eventName was fired");
         }
     }
 

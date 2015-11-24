@@ -13,7 +13,7 @@ class LaravelDispatcherSpec extends ObjectBehavior
     function let(Dispatcher $dispatcher, Log $log, UserHasRegistered $event)
     {
         $dispatcher->fire('Double.spec.Matthis.Eventing.TestData.UserHasRegistered.P1', $event)->shouldBeCalled();
-        $log->info("Event Double.spec.Matthis.Eventing.TestData.UserHasRegistered.P1 was fired")->shouldBeCalled();
+        //$log->info("Event Double.spec.Matthis.Eventing.TestData.UserHasRegistered.P1 was fired")->shouldBeCalled();
 
         $this->beConstructedWith($dispatcher, $log);
     }
