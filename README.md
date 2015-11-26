@@ -9,7 +9,7 @@ You can add your own implementation by implementing the contratcs.
 
 ## Installation
 Install visa composer:
-`composer require "matthis/eventing:2.0.*"`
+`composer require "matthis/eventing:3.0.*"`
 
 Then include `Matthis\Eventing\EventingServiceProvider` in your `config/app.php`
 

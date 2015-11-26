@@ -2,8 +2,8 @@
     "name": "matthis/eventing",
     "require": {
         "php": ">=5.5.0",
-        "illuminate/log": "5.0.*",
-        "illuminate/events": "5.0.*"
+        "illuminate/log": "5.*",
+        "illuminate/events": "5.*"
     },
     "require-dev": {
         "phpspec/phpspec": "~2.1"
